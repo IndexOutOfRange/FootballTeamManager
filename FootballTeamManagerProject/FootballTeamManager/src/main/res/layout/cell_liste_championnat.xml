@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/championnat_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_championnat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/championnat_name"
+            android:paddingBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/championnat_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/championnat_resume"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_cell_arrow"
+        android:layout_gravity="center|right"/>
+</LinearLayout>

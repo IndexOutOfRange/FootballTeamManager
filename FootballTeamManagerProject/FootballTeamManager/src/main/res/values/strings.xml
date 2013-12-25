@@ -1,3 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">FootballTeamManager</string>
+    <string name="title_activity_welcome_config_page">Bienvenue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_config_message">Bienvenue dans l\'application qui va vous aider a gérer votre équipe de Football. Veuillez saisir le nom de votre équipe.</string>
+    <string name="footballteamname_hint">MyFootballTeamName</string>
+    <string name="login_ok_button">Je commence</string>
+    <string name="championnat_name">Championnat d\'hiver</string>
+    <string name="championnat_resume">3 victoires 3 defaites 1 nul</string>
+    <string name="match_date">Le 15/12/2013</string>
+    <string name="match_adversaire_name">Dalloz</string>
+    <string name="match_adversaire">Adversaire :</string>
+    <string name="score">Score (But pour/ but contre) :</string>
+    <string name="score_finale">3-2</string>
+    <string name="date_label">Date :</string>
+    <string name="lieu_label">Lieu :</string>
+    <string name="adversaire_label">Adversaire :</string>
+    <string name="score_label">Score :</string>
+    <string name="but_pour_label">Buts pour</string>
+    <string name="but_contre_label">Buts contre</string>
+    <string name="title_create_championnat">Création d\'un championnat</string>
+    <string name="message_create_championnat">Donnez un nom au championnat</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+
 </resources>
