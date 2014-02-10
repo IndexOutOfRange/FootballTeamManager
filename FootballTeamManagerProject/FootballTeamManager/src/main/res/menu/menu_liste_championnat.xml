@@ -3,5 +3,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:icon="@android:drawable/ic_menu_add"
-        android:id="@+id/menu_add_championnat"/>
+        android:id="@+id/menu_add_championnat"
+        android:title="Ajouter un championnat"/>
 </menu>

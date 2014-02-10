@@ -35,6 +35,19 @@ public class Match implements Serializable{
     @DatabaseField(foreign = true, columnName = COLUMN_CHAMPIONNAT)
     private Championnat mChampionnat;
 
+    public Match() {
+
+    }
+
+    public Match(Date date, String lieu, int nbButsEncaisses, int nbButsMarques, String adversaireName, Championnat championnat) {
+        mDate = date;
+        mLieu = lieu;
+        mNbButsEncaisses = nbButsEncaisses;
+        mNbButsMarques = nbButsMarques;
+        mAdversaireName = adversaireName;
+        mChampionnat = championnat;
+    }
+
     public Date getDate() {
         return mDate;
     }

@@ -69,4 +69,21 @@ public class Joueur implements Serializable{
     public void setPoste(Poste mPoste) {
         this.mPoste = mPoste;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || Joueur.class != o.getClass()) return false;
+
+        Joueur joueur = (Joueur) o;
+
+        if (mName != null ? !mName.equals(joueur.mName) : joueur.mName != null) return false;
+
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        return mName != null ? mName.hashCode() : 0;
+    }
 }

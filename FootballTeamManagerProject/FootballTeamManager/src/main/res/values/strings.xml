@@ -25,5 +25,8 @@
     <string name="message_create_championnat">Donnez un nom au championnat</string>
     <string name="ok">ok</string>
     <string name="cancel">cancel</string>
+    <string name="player_name">Stephane</string>
+    <string name="buts">Buts :</string>
+    <string name="passes">Passes Dec.</string>
 
 </resources>

@@ -27,6 +27,7 @@ public class CellListeMatch extends LinearLayout {
     public CellListeMatch(Context context) {
         super(context);
         mContext = context;
+        inflate(context, R.layout.cell_liste_match, this);
         mMatchIcon = (ImageView)findViewById(R.id.match_icon);
         mMatchDate = (TextView)findViewById(R.id.match_date);
         mMatchAdvName = (TextView)findViewById(R.id.match_adversaire_name);

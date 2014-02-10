@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="@dimen/petit"
+              android:layout_marginLeft="@dimen/petit">
+
+    <ImageView
+        android:id="@+id/delete_joueur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/tv_nom_joueur"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/player_name"
+        android:gravity="center"
+        android:textSize="@dimen/normal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buts"/>
+
+    <EditText
+        android:id="@+id/et_buts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passes"
+        android:paddingLeft="@dimen/petit"/>
+
+    <EditText
+        android:id="@+id/et_passes_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
